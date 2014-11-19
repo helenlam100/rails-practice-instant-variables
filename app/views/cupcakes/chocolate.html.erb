@@ -1,0 +1,8 @@
+<h1>Chocolate Frosting Ingredients</h1>
+
+<dl class="dl-horizontal">
+  <% @frostings.each do |frostings, amount| %>
+    <dt><%= frostings %></dt>
+    <dd><%= amount %></dd>
+  <% end %>
+</dl>
